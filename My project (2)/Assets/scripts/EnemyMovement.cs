@@ -5,10 +5,10 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public Transform player;
-    public float speedFollow = 35f;
+    public float speedFollow = 70f;
     private float minDistance = 10f;
     private float activateDistance = 70f;
-    public float runSpeed = 2f;
+    public float runSpeed = 70f;
     public GameObject ui;
     
     public enum TypeOfEnemy
